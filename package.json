@@ -1,0 +1,25 @@
+{
+  "name": "cli-slot-machine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'NODE_ENV=development ts-node' src/main.ts",
+    "start": "NODE_ENV=production node dist/main.js"
+  },
+  "keywords": [
+    "slot",
+    "spin",
+    "machine",
+    "casino",
+    "bet"
+  ],
+  "author": "Juan Carballo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
