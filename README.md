@@ -2,10 +2,11 @@
 
 Node.js slot machine example
 
+![image info](./image.png)
+
 ## Description
 
 A basic CLI example about how slot machines work generating RTP and RNG.
-
 
 ### Dependencies
 
